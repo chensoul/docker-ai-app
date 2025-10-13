@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+  workflow_dispatch:
+    
 jobs:
   build:
     name: Build
@@ -16,3 +17,5 @@ jobs:
 
       - name: Maven Build
         uses: rosestack/maven-build-action@main
+        with:
+          java-version: 25
