@@ -16,5 +16,3 @@ jobs:
 
       - name: Maven Build
         uses: rosestack/maven-build-action@main
-        with:
-          java-version: 17
