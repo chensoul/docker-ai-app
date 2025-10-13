@@ -1,5 +1,11 @@
 # Docker AI应用
 
+[![GitHub release](https://img.shields.io/github/v/release/chensoul/docker-ai-app)](https://github.com/chensoul/docker-ai-app/releases)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/chensoul/docker-ai-app/ci.yml?branch=main)](https://github.com/chensoul/docker-ai-app/actions/workflows/test.yml)
+[![License](https://img.shields.io/github/license/chensoul/docker-ai-app)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/chensoul/docker-ai-app)](https://github.com/chensoul/docker-ai-app/stargazers)
+
+
 基于Docker Model Runner和Spring AI构建的AI应用，支持文本生成、向量搜索和RAG功能。
 
 ## 功能特性
