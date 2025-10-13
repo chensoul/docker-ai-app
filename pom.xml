@@ -14,7 +14,7 @@
     <name>docker-ai-app</name>
     <description>基于Docker Model Runner的Spring AI应用示例</description>
     <properties>
-        <java.version>25</java.version>
+        <java.version>17</java.version>
         <spring-ai.version>1.0.3</spring-ai.version>
     </properties>
     <dependencies>

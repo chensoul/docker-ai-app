@@ -23,7 +23,7 @@
 ### 1. 环境要求
 
 - Docker Desktop 4.40+ (macOS) 或 4.41+ (Windows) (支持Docker Model Runner)
-- Java 25
+- Java 17
 - Maven 3.9+
 - 内存: 至少16GB（推荐32GB）
 - 系统: macOS (Apple Silicon), Windows (Intel/AMD), 或 Linux (NVIDIA GPU)
@@ -132,8 +132,8 @@ docker-ai-app/
 ├── start.sh                         # 一键启动脚本（包含所有服务）
 ├── test.sh                          # 测试脚本
 ├── docker-compose.yml               # PostgreSQL服务配置
-├── Dockerfile                       # 应用容器化配置（JDK 25）
-└── pom.xml                          # Maven配置（JDK 25）
+├── Dockerfile                       # 应用容器化配置（JDK 17）
+└── pom.xml                          # Maven配置（JDK 17）
 ```
 
 ### 添加新功能
